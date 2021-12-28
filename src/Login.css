@@ -1,0 +1,122 @@
+.LoginForm{
+    margin: 0;
+    padding: 0;
+}
+.Topbar{
+    background-color: #FFB80C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+}
+
+.Form{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-around;
+    align-items: center;
+    padding: 40px; */
+
+    float: left;
+    width: 50%;
+    padding: 16px 0;
+    border-right: 1px solid #ddd;
+    border-bottom: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 41px;
+    
+}
+.Form h3{
+    margin-right: 202px;
+}
+/* .FormInputs{
+    
+} */
+
+.FormData {
+    position: relative;
+    float: left;
+    margin-bottom: 12px;
+    margin-top: 19px;
+}
+.FormDataPassword input{
+    width: 211px;
+    margin-left: 84px;
+    line-height: 28px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.FormData label {
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    font-weight: normal;
+    margin: 15px 5px 15px 0;
+    line-height: 12px;
+    width: 156px;
+    text-align: left;
+    font-weight: bold;
+
+}
+.FormData input{
+    padding: 5px;
+}
+
+.Btn button{
+    background-color: #FFB80C;
+    padding: 10px;
+    margin-top: 15px;
+    width: 207px;
+    margin-left: 151px;
+    height: 35px;
+}
+
+.Btn p{
+    font-size: 13px;
+    margin-left: 153px;
+    line-height: 36px;
+}
+
+.password-icon {
+  position: absolute;
+  top: 20px;
+  right: 5px;
+  cursor: pointer;
+}
+.secondPortion h3{
+    margin-top: 48px;
+    
+}
+.secondPortion{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 12px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+}
+
+.imagePortion{
+    /* background-color: #FFB80C; */
+    height: 100px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.secondBtn button{
+    background-color: #A5A5A5;
+    width: 193px;
+    height: 38px;
+    margin-top: 12px;
+
+}
+
+.FormDataPassword label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+}
